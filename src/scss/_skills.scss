@@ -1,0 +1,108 @@
+.skills {
+  display: flex;
+  margin-top: 3rem;
+  text-align: left;
+  justify-content: center;
+}
+
+.t-skills {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #4370ff;
+}
+
+.t-frameworks {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.t-tools {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.t-design {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.languages {
+  padding-left: 5rem;
+}
+
+.t-languages {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.frameworks {
+  padding-left: 5rem;
+}
+
+.tools {
+  padding-left: 5rem;
+}
+
+.design {
+  padding-left: 5rem;
+}
+
+.design-list {
+  text-align: left;
+}
+
+.languages-list {
+  text-align: left;
+}
+
+.frameworks-list {
+  text-align: left;
+}
+
+.tools-list {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.content-2 {
+  display: flex;
+}
+
+.content-1 {
+  display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  right: 0;
+}
+
+.logo-point {
+  height: 40px;
+  right: 47px;
+  position: absolute;
+}

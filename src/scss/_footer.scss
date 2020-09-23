@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 3rem 2rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-item {
+  padding-left: 1rem;
+}
+
+.left-footer {
+  display: flex;
+  padding-left: 7rem;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.footer-item {
+  color: #44e9a2 !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nerd-face {
+  height: 22px;
+  width: 24px;
+  left: 15rem;
+  margin-top: 0rem;
+  position: absolute;
+}

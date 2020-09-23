@@ -1,0 +1,28 @@
+.nav-components {
+  display: flex;
+  padding: 24px 64px 8px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #0f1117;
+}
+
+.list-items {
+  display: flex;
+}
+
+.items {
+  padding: 1rem;
+}
+
+.left-nav {
+  color: white !important;
+}
+
+.logo {
+  padding: 1rem;
+  background: black;
+  background-size: 10px 20px;
+}

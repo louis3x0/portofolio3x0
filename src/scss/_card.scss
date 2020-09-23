@@ -1,0 +1,150 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(auto, 60px)) 1fr;
+  grid-gap: 40px;
+  padding: 60px 0;
+}
+
+.text--medium {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ecf0f1;
+}
+
+.cards {
+  grid-column: 2 / span 12;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(auto, 60px));
+  grid-gap: 40px;
+}
+
+.image-logo {
+  justify-content: center;
+  text-align: center;
+
+  img {
+    margin-bottom: 1rem;
+    height: 81px;
+  }
+}
+
+.card {
+  border-color: #f0f0f5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  border-style: solid;
+  border-width: 1px;
+  grid-column-end: span 4;
+  display: flex;
+  padding-top: 10.25%;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  cursor: pointer;
+  right: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+}
+
+.card-text {
+  color: #0f1117;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-sub-text {
+  color: #0f1117;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.subcard-text {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 61%;
+  margin-bottom: 11rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sub-hero {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    grid-gap: 20px;
+  }
+  .card {
+    grid-column-end: span 12;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {
+    grid-column: 2 / span 12;
+    display: grid;
+    grid-template-columns: repeat(0, minmax(auto, 60px));
+    grid-gap: 40px;
+  }
+
+  .sub-hero {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .projects-section {
+    grid-gap: 2em;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .projects-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section-2 {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-list {
+    margin-top: 0.5rem;
+  }
+  .right-section {
+    img {
+      width: 485px;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .section-2 {
+    display: flex;
+  }
+}
+
+.projects-section {
+  display: flex;
+}

@@ -1,0 +1,57 @@
+.hero {
+  margin-top: 53px;
+}
+
+.hero-title {
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.sub-hero {
+  text-align: center;
+  justify-content: center;
+  width: 36%;
+  margin: 0 auto;
+  color: #0f1117;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8em;
+  max-width: 1159px;
+  margin: 0 auto;
+}
+
+.right-section {
+  img {
+    height: 300px;
+    width: 516px;
+    object-fit: initial;
+  }
+}
+
+.git {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gith {
+  color: rgba(34, 55, 84, 0.75);
+}
+
+.gith-w {
+  color: rgba(34, 55, 84, 0.75);
+
+  padding-left: 1rem;
+}
+
+.section-2 {
+  margin-top: 8rem;
+}
