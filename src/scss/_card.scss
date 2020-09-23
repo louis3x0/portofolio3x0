@@ -96,14 +96,11 @@ main {
 
 @media only screen and (max-width: 500px) {
   .cards {
-    grid-column: 2 / span 12;
+    grid-column: 1 / span 9;
     display: grid;
     grid-template-columns: repeat(0, minmax(auto, 60px));
     grid-gap: 40px;
-  }
-
-  .sub-hero {
-    width: 80%;
+    margin-left: -1rem;
   }
 }
 

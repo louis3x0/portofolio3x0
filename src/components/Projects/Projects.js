@@ -35,7 +35,7 @@ const Projects = () => {
       <div className="projects-section section-2">
         <div className="right-section">
           <img
-            src="https://im7.ezgif.com/tmp/ezgif-7-1916ec2ca625.gif"
+            src="https://media3.giphy.com/media/yU73X2sPikTEr1tA0m/giphy.gif"
             alt=""
           />
         </div>

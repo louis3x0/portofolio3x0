@@ -7,8 +7,12 @@ import ScrollTopArrow from "./components/ScrollTopArrow/ScrollTopArrow";
 
 let app = document.createElement("div");
 app.id = "app";
+var meta = document.createElement("meta");
+meta.name = "viewport";
+meta.content = "width=device-width,height=device-height initial-scale=1";
 
 document.body.appendChild(app);
+document.getElementsByTagName("head")[0].appendChild(meta);
 document.title = "Portofolio";
 
 class App extends React.Component {
