@@ -1,10 +1,12 @@
 {
+  "homepage": "http://louis3x0.github.io/portofolio3x0",
   "name": "louis-porto",
   "version": "1.0.0",
   "description": "Portofolio",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^5.12.0",
+    "gh-pages": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
@@ -30,12 +32,13 @@
     "webpack-cli": "^3.2.1",
     "webpack-dev-middleware": "^3.5.2",
     "webpack-dev-server": "^3.1.14",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --hot",
-    "build": "webpack"
+    "start": "webpack-dev-server --open --hot --config webpack.dev.config.js",
+    "build": "webpack --mode=production --config webpack.config.js",
+    "deploy": "gh-pages -d build"
   },
   "author": "Sardarescu Louis Aurel",
   "license": "ISC"
