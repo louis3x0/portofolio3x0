@@ -9,6 +9,7 @@ let app = document.createElement("div");
 app.id = "app";
 
 document.body.appendChild(app);
+document.title = "Portofolio";
 
 class App extends React.Component {
   render() {
